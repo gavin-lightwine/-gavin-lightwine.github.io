@@ -1,29 +1,47 @@
-	<!doctype html>
+@charset "utf-8";
 	
 
-	<html>
-	<head>
-	  <meta charset="utf-8" />
+	html { 
+	background: url(Resources/Images/CatImage.jpg);
+	}
 	
 
-	  <title>Project</title>
-	 <link rel="stylesheet" href="index.css">
-	  <link rel="stylesheet" href="reset.css">
+	body
+	{
+	}
+	.racer {
+	  width: 100pt;
+	}
 	
 
-	</head>
-	
-
-	<body>
-	<a href="#" onclick="race()" id="stoplightlink"><img src="Resources/Images/TrafficLightRed.svg" id="stoplight" /></a>
-		
+	#bunny {
+	  position: absolute;
+	  top: 400pt;
 	  
-	  <img src="Resources/Images/HareImage.jpg" class="racer" id="bunny" style="left: 5%"/><br />
-		<img src="Resources/Images/TortoiseImage.jpg" class="racer" id="turtle" style="left: 5%"/><br />
+	}
 	
 
-	<p id="winnertext"></p>
-		<script src="race.js"></script>
-	</body>
-	</html>
+	#turtle {
+	  position:absolute;
+	  top: 250pt;
+	}
+	
 
+	
+
+	#stoplight{
+	  position: absolute;
+	  top: 20pt;
+	  left:30pt;
+	  width: 150pt;
+	}
+	
+
+	#winnertext {
+	  color: white;
+	  font-size 300%;
+	  font-weight: bold;
+	  position: relative;
+	  top: 100pt;
+	  text-align: center;
+	}
